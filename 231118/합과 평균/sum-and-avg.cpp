@@ -5,5 +5,5 @@ int main() {
     cout << a+b << " ";
     cout<<fixed;
     cout.precision(1);
-    cout << (a+b)/2;
+    cout << (double)(a+b)/2;
 }
