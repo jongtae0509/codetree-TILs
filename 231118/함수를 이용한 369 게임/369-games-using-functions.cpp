@@ -11,7 +11,10 @@ int main() {
             continue;
         }
         while(j>0){
-            if((j%10)%3==0) s++;
+            if((j%10)%3==0){
+                s++;
+                break;
+            }
             j/=10;
         }
     }
