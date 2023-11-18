@@ -11,7 +11,7 @@ int main() {
             continue;
         }
         while(j>0){
-            if((j%10)%3==0){
+            if(j%10==3||j%10==6||j%10==9){
                 s++;
                 break;
             }
