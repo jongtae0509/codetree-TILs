@@ -13,5 +13,8 @@ int main() {
         case 3:
             cout << "Paul";
             break;
+        default:
+            cout << "Vacancy";
+            break;
     }
 }
