@@ -11,5 +11,6 @@ int main() {
         }
         if(!check) sum+=i;
     }
+    if(b==1) sum--;
     cout << sum;
 }
