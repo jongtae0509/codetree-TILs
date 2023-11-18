@@ -8,5 +8,6 @@ int main() {
         n/=10;
         if((a+n)%5==0) cout << "Yes";
         else cout << "No";
-    }   
+    }  
+    else cout << "No";
 }
