@@ -2,6 +2,8 @@
 using namespace std;
 int main() {
     string a; cin >> a;
-    if(a=="palindrame") cout << "Yes";
+    string b="";
+    for(int i=a.size()-1;i>=0;i--) b+=a[i];
+    if(a==b) cout << "Yes";
     else cout << "No";
 }
