@@ -8,7 +8,7 @@ int main() {
         else puts("BOY");
     }
     else{
-        if(b>=19) puts("WOMAN";
+        if(b>=19) puts("WOMAN");
         else puts("GIRL");
     }
 }
