@@ -10,5 +10,5 @@ int main() {
     }
     cout << fixed;
     cout.precision(1);
-    cout << sum << ' ' << (double)sum/cnt;
+    cout << sum << ' ' << (double)sum/n;
 }
