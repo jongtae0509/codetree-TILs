@@ -6,7 +6,7 @@ int main() {
     int sum=0;
     for(int i=0;i<n;i++){
         int t; cin >> t;
-        if(t%2!=0) sum+=t;
+        if(t%2!=0&&t%3==0) sum+=t;
     }
     cout << sum;
 }
