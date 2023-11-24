@@ -4,7 +4,7 @@ int main() {
    int n; cin >> n;
    int sum=0;
    for(int i=1;i<=n;i++){
-    if(sum>=n) break;
+    if(sum+i>=n) break;
     sum+=i;
    }
    cout << sum;
