@@ -6,5 +6,5 @@ int main() {
     i++;
     sum+=i;
    }
-   cout << sum;
+   cout << sum-i;
 }
