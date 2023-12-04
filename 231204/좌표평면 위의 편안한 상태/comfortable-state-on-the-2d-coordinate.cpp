@@ -7,9 +7,10 @@ int arr[2000][2000];
 int check(int x,int y){
     int sum=0;
     for(int dir=0;dir<4;dir++){
+        if(arr[x][y]==0) continue;
         int nx=x+dx[dir];
         int ny=y+dy[dir];
-        if(nx<0||ny<0||arr[x][y]==0) continue;
+        if(nx<0||ny<0) continue;
         if(arr[nx][ny]==1) sum++;
     }
     return sum;
@@ -22,7 +23,7 @@ int main() {
     //for(int i=0;i<n;i++) for(int j=0;j<n;j++) arr[i][j]=-1;
     for(int i=0;i<n;i++){
         int x,y; cin >> y >> x;
-        y--,x--;
+        //y--,x--;
         arr[x][y]=1;    //점을 찍었어요
         if(check(x,y)==3) aa++;
         else if(check(x,y)>3) aa--;
